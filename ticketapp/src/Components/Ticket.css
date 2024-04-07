@@ -1,0 +1,55 @@
+/* Ticket component styles */
+.ticket-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.ticket-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.ticket-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.ticket-form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.ticket-form input[type="text"],
+.ticket-form textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.ticket-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.ticket-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ticket-form button:hover {
+  background-color: #0056b3;
+}
+
+.ticket-form p {
+  color: #ff0000;
+}

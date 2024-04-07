@@ -1,0 +1,18 @@
+.user-dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.user-dashboard h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.user-info {
+  margin-bottom: 20px;
+}
+
+.ticket-container {
+  margin-top: 20px;
+}

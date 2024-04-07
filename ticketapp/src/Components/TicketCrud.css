@@ -1,0 +1,49 @@
+.ticket-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.ticket-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ticket-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.ticket-details {
+  margin-bottom: 10px;
+}
+
+.ticket-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ticket-actions button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.ticket-actions button.close {
+  background-color: #49e4dc;
+  color: #faf4f4;
+}
+.ticket-actions button.delete {
+  background-color: #e62b0a;
+  color: #fffefe;
+}
+
+.ticket-actions button.resolve {
+  background-color: #32cd32;
+  color: #fff;
+}
